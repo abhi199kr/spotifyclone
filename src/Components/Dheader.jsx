@@ -7,6 +7,7 @@ import search from '../Images/search.png';
 import vline from '../Images/vline.png';
 import profile from '../Images/profle.png';
 import Dropdown from './Daside'
+import Drop from './Drop';
 
 const Dheader = () => {
   return (
@@ -33,14 +34,8 @@ const Dheader = () => {
     <div className='ml-auto'>
         {/* <img src={profile} onClick={()=>console.log("dfd")} className="w- h-10 rounded-full" alt="" /> */}
         {/* <Dropdown/> */}
-        <div className="relative w-full lg:max-w-sm">
-            <select className="w-full p-2.5 text-gray-500 bg-white border rounded-md shadow-sm outline-none appearance-none focus:border-indigo-600">
-                <option className='w-5 h-5 rounded-full'>jfijf</option>
-                <option>Laravel 9 with React</option>
-                <option>React with Tailwind CSS</option>
-                <option>React With Headless UI</option>
-            </select>
-        </div>
+        <Drop/>
+        
     </div>
   
     {/* <Dropdown/> */}

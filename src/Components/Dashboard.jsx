@@ -5,14 +5,14 @@ import Dside from './Dside'
 
 const Dashboard = () => {
   return (
-    <div className='bg-black w-screen h-screen text-white'>
+    <div className='bg-black w-screen h-screen text-white overflow-hidden'>
     <Dheader/>
     <div className='flex'>
     <div className='w-2/12'>
     <Dside/>
 
     </div>
-    <div className='text-white bg-zinc-400 rounded w-fit overflow-hidden mx-2'>
+    <div className=' w-10/12 text-white bg-zinc-400 rounded  overflow-hidden mx-2'>
         <Daside/>
         
     </div>
